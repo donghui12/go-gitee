@@ -5,7 +5,7 @@ import (
 	"golang.org/x/oauth2"
 	"testing"
 
-	"github.com/opensourceways/go-gitee/gitee"
+	"github.com/donghui12/go-gitee/gitee"
 )
 
 const (
