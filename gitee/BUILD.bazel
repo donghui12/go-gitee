@@ -126,7 +126,7 @@ go_library(
         "models_accessors.go",
         "response.go",
     ],
-    importpath = "github.com/opensourceways/go-gitee/gitee",
+    importpath = "github.com/donghui12/go-gitee/gitee",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_antihax_optional//:go_default_library",
