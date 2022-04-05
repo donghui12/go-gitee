@@ -3515,13 +3515,13 @@ type GetV5ReposOwnerRepoTagsOpts struct {
 	AccessToken optional.String
 }
 
-func (a *RepositoriesApiService) GetV5ReposOwnerRepoTags(ctx context.Context, owner string, repo string, localVarOptionals *GetV5ReposOwnerRepoTagsOpts) (Tag, *http.Response, error) {
+func (a *RepositoriesApiService) GetV5ReposOwnerRepoTags(ctx context.Context, owner string, repo string, localVarOptionals *GetV5ReposOwnerRepoTagsOpts) ([]*Tag, *http.Response, error) {
 	var (
 		localVarHttpMethod  = strings.ToUpper("Get")
 		localVarPostBody    interface{}
 		localVarFileName    string
 		localVarFileBytes   []byte
-		localVarReturnValue Tag
+		localVarReturnValue []*Tag
 	)
 
 	// create path and map variables
