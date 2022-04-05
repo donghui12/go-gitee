@@ -1,4 +1,4 @@
-module github.com/opensourceways/go-gitee
+module github.com/donghui12/go-gitee
 
 go 1.16
 
