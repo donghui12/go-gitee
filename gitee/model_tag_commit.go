@@ -9,8 +9,8 @@
 
 package gitee
 
-// 列出仓库所有的tags
-type Tag struct {
-	Name   string `json:"name,omitempty"`
-	Commit *TagCommit `json:"commit,omitempty"`
+// tag的Commit信息
+type TagCommit struct {
+	Sha  string `json:"sha,omitempty"`
+	Date string `json:"date,omitempty"`
 }
