@@ -19,5 +19,5 @@ type RepoCommit struct {
 	Author      string        `json:"author,omitempty"`
 	Committer   string        `json:"committer,omitempty"`
 	Parents     string        `json:"parents,omitempty"`
-	Stats       string        `json:"stats,omitempty"`
+	Stats       *CommitStats        `json:"stats,omitempty"`
 }

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **Author** | **string** |  | [optional] [default to null]
 **Committer** | **string** |  | [optional] [default to null]
 **Parents** | **string** |  | [optional] [default to null]
-**Stats** | **string** |  | [optional] [default to null]
+**Stats** | [***CommitStats**](CommitStats.md) |  | [optional] [default to null]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
