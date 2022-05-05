@@ -64,6 +64,7 @@ func (a *MilestonesApiService) DeleteV5ReposOwnerRepoMilestonesNumber(ctx contex
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -156,6 +157,7 @@ func (a *MilestonesApiService) GetV5ReposOwnerRepoMilestones(ctx context.Context
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.State.IsSet() {
 		localVarQueryParams.Add("state", parameterToString(localVarOptionals.State.Value(), ""))
@@ -274,6 +276,7 @@ func (a *MilestonesApiService) GetV5ReposOwnerRepoMilestonesNumber(ctx context.C
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}

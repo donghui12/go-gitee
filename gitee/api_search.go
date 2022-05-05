@@ -71,6 +71,7 @@ func (a *SearchApiService) GetV5SearchGists(ctx context.Context, q string, local
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	localVarQueryParams.Add("q", parameterToString(q, ""))
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
@@ -208,6 +209,7 @@ func (a *SearchApiService) GetV5SearchIssues(ctx context.Context, q string, loca
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	localVarQueryParams.Add("q", parameterToString(q, ""))
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
@@ -351,6 +353,7 @@ func (a *SearchApiService) GetV5SearchRepositories(ctx context.Context, q string
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	localVarQueryParams.Add("q", parameterToString(q, ""))
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
@@ -479,6 +482,7 @@ func (a *SearchApiService) GetV5SearchUsers(ctx context.Context, q string, local
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	localVarQueryParams.Add("q", parameterToString(q, ""))
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {

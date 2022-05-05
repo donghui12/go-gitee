@@ -60,6 +60,7 @@ func (a *UsersApiService) DeleteV5UserFollowingUsername(ctx context.Context, use
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -139,6 +140,7 @@ func (a *UsersApiService) DeleteV5UserKeysId(ctx context.Context, id int32, loca
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -217,6 +219,7 @@ func (a *UsersApiService) GetV5User(ctx context.Context, localVarOptionals *GetV
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -318,6 +321,7 @@ func (a *UsersApiService) GetV5UserFollowers(ctx context.Context, localVarOption
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
 		localVarQueryParams.Add("page", parameterToString(localVarOptionals.Page.Value(), ""))
@@ -425,6 +429,7 @@ func (a *UsersApiService) GetV5UserFollowing(ctx context.Context, localVarOption
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
 		localVarQueryParams.Add("page", parameterToString(localVarOptionals.Page.Value(), ""))
@@ -529,6 +534,7 @@ func (a *UsersApiService) GetV5UserFollowingUsername(ctx context.Context, userna
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -611,6 +617,7 @@ func (a *UsersApiService) GetV5UserKeys(ctx context.Context, localVarOptionals *
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
 		localVarQueryParams.Add("page", parameterToString(localVarOptionals.Page.Value(), ""))
@@ -716,6 +723,7 @@ func (a *UsersApiService) GetV5UserKeysId(ctx context.Context, id int32, localVa
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -814,6 +822,7 @@ func (a *UsersApiService) GetV5UserNamespace(ctx context.Context, path string, l
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	localVarQueryParams.Add("path", parameterToString(path, ""))
 	// to determine the Content-Type header
@@ -914,6 +923,7 @@ func (a *UsersApiService) GetV5UserNamespaces(ctx context.Context, localVarOptio
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Mode.IsSet() {
 		localVarQueryParams.Add("mode", parameterToString(localVarOptionals.Mode.Value(), ""))
@@ -1016,6 +1026,7 @@ func (a *UsersApiService) GetV5UsersUsername(ctx context.Context, username strin
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -1119,6 +1130,7 @@ func (a *UsersApiService) GetV5UsersUsernameFollowers(ctx context.Context, usern
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
 		localVarQueryParams.Add("page", parameterToString(localVarOptionals.Page.Value(), ""))
@@ -1228,6 +1240,7 @@ func (a *UsersApiService) GetV5UsersUsernameFollowing(ctx context.Context, usern
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
 		localVarQueryParams.Add("page", parameterToString(localVarOptionals.Page.Value(), ""))
@@ -1334,6 +1347,7 @@ func (a *UsersApiService) GetV5UsersUsernameFollowingTargetUser(ctx context.Cont
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -1418,6 +1432,7 @@ func (a *UsersApiService) GetV5UsersUsernameKeys(ctx context.Context, username s
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
 		localVarQueryParams.Add("page", parameterToString(localVarOptionals.Page.Value(), ""))

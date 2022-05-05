@@ -63,6 +63,7 @@ func (a *GistsApiService) DeleteV5GistsGistIdCommentsId(ctx context.Context, gis
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -142,6 +143,7 @@ func (a *GistsApiService) DeleteV5GistsId(ctx context.Context, id string, localV
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -221,6 +223,7 @@ func (a *GistsApiService) DeleteV5GistsIdStar(ctx context.Context, id string, lo
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -305,6 +308,7 @@ func (a *GistsApiService) GetV5Gists(ctx context.Context, localVarOptionals *Get
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Since.IsSet() {
 		localVarQueryParams.Add("since", parameterToString(localVarOptionals.Since.Value(), ""))
@@ -417,6 +421,7 @@ func (a *GistsApiService) GetV5GistsGistIdComments(ctx context.Context, gistId s
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
 		localVarQueryParams.Add("page", parameterToString(localVarOptionals.Page.Value(), ""))
@@ -524,6 +529,7 @@ func (a *GistsApiService) GetV5GistsGistIdCommentsId(ctx context.Context, gistId
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -623,6 +629,7 @@ func (a *GistsApiService) GetV5GistsId(ctx context.Context, id string, localVarO
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -722,6 +729,7 @@ func (a *GistsApiService) GetV5GistsIdCommits(ctx context.Context, id string, lo
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -825,6 +833,7 @@ func (a *GistsApiService) GetV5GistsIdForks(ctx context.Context, id string, loca
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
 		localVarQueryParams.Add("page", parameterToString(localVarOptionals.Page.Value(), ""))
@@ -929,6 +938,7 @@ func (a *GistsApiService) GetV5GistsIdStar(ctx context.Context, id string, local
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -1013,6 +1023,7 @@ func (a *GistsApiService) GetV5GistsPublic(ctx context.Context, localVarOptional
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Since.IsSet() {
 		localVarQueryParams.Add("since", parameterToString(localVarOptionals.Since.Value(), ""))
@@ -1125,6 +1136,7 @@ func (a *GistsApiService) GetV5GistsStarred(ctx context.Context, localVarOptiona
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Since.IsSet() {
 		localVarQueryParams.Add("since", parameterToString(localVarOptionals.Since.Value(), ""))
@@ -1237,6 +1249,7 @@ func (a *GistsApiService) GetV5UsersUsernameGists(ctx context.Context, username 
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
 		localVarQueryParams.Add("page", parameterToString(localVarOptionals.Page.Value(), ""))

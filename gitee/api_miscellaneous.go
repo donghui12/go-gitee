@@ -58,6 +58,7 @@ func (a *MiscellaneousApiService) GetV5Emojis(ctx context.Context, localVarOptio
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -135,6 +136,7 @@ func (a *MiscellaneousApiService) GetV5GitignoreTemplates(ctx context.Context, l
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -214,6 +216,7 @@ func (a *MiscellaneousApiService) GetV5GitignoreTemplatesName(ctx context.Contex
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -293,6 +296,7 @@ func (a *MiscellaneousApiService) GetV5GitignoreTemplatesNameRaw(ctx context.Con
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -370,6 +374,7 @@ func (a *MiscellaneousApiService) GetV5Licenses(ctx context.Context, localVarOpt
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -449,6 +454,7 @@ func (a *MiscellaneousApiService) GetV5LicensesLicense(ctx context.Context, lice
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -528,6 +534,7 @@ func (a *MiscellaneousApiService) GetV5LicensesLicenseRaw(ctx context.Context, l
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -609,6 +616,7 @@ func (a *MiscellaneousApiService) GetV5ReposOwnerRepoLicense(ctx context.Context
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}

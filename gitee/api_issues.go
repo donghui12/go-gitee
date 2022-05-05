@@ -63,6 +63,7 @@ func (a *IssuesApiService) DeleteV5ReposOwnerRepoIssuesCommentsId(ctx context.Co
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -173,6 +174,7 @@ func (a *IssuesApiService) GetV5EnterprisesEnterpriseIssues(ctx context.Context,
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.State.IsSet() {
 		localVarQueryParams.Add("state", parameterToString(localVarOptionals.State.Value(), ""))
@@ -319,6 +321,7 @@ func (a *IssuesApiService) GetV5EnterprisesEnterpriseIssuesNumber(ctx context.Co
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -424,6 +427,7 @@ func (a *IssuesApiService) GetV5EnterprisesEnterpriseIssuesNumberComments(ctx co
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
 		localVarQueryParams.Add("page", parameterToString(localVarOptionals.Page.Value(), ""))
@@ -535,6 +539,7 @@ func (a *IssuesApiService) GetV5EnterprisesEnterpriseIssuesNumberLabels(ctx cont
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Page.IsSet() {
 		localVarQueryParams.Add("page", parameterToString(localVarOptionals.Page.Value(), ""))
@@ -662,6 +667,7 @@ func (a *IssuesApiService) GetV5Issues(ctx context.Context, localVarOptionals *G
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Filter.IsSet() {
 		localVarQueryParams.Add("filter", parameterToString(localVarOptionals.Filter.Value(), ""))
@@ -821,6 +827,7 @@ func (a *IssuesApiService) GetV5OrgsOrgIssues(ctx context.Context, org string, l
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Filter.IsSet() {
 		localVarQueryParams.Add("filter", parameterToString(localVarOptionals.Filter.Value(), ""))
@@ -962,6 +969,7 @@ func (a *IssuesApiService) GetV5ReposOwnerIssuesNumberOperateLogs(ctx context.Co
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Repo.IsSet() {
 		localVarQueryParams.Add("repo", parameterToString(localVarOptionals.Repo.Value(), ""))
@@ -1099,6 +1107,7 @@ func (a *IssuesApiService) GetV5ReposOwnerRepoIssues(ctx context.Context, owner 
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.State.IsSet() {
 		localVarQueryParams.Add("state", parameterToString(localVarOptionals.State.Value(), ""))
@@ -1255,6 +1264,7 @@ func (a *IssuesApiService) GetV5ReposOwnerRepoIssuesComments(ctx context.Context
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Sort.IsSet() {
 		localVarQueryParams.Add("sort", parameterToString(localVarOptionals.Sort.Value(), ""))
@@ -1373,6 +1383,7 @@ func (a *IssuesApiService) GetV5ReposOwnerRepoIssuesCommentsId(ctx context.Conte
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -1476,6 +1487,7 @@ func (a *IssuesApiService) GetV5ReposOwnerRepoIssuesNumber(ctx context.Context, 
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	// to determine the Content-Type header
 	localVarHttpContentTypes := []string{"application/json", "multipart/form-data"}
@@ -1585,6 +1597,7 @@ func (a *IssuesApiService) GetV5ReposOwnerRepoIssuesNumberComments(ctx context.C
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Since.IsSet() {
 		localVarQueryParams.Add("since", parameterToString(localVarOptionals.Since.Value(), ""))
@@ -1715,6 +1728,7 @@ func (a *IssuesApiService) GetV5UserIssues(ctx context.Context, localVarOptional
 
 	if localVarOptionals != nil && localVarOptionals.AccessToken.IsSet() {
 		localVarQueryParams.Add("access_token", parameterToString(localVarOptionals.AccessToken.Value(), ""))
+		localVarHeaderParams["Private-Token"] = parameterToString(localVarOptionals.AccessToken.Value(), "")
 	}
 	if localVarOptionals != nil && localVarOptionals.Filter.IsSet() {
 		localVarQueryParams.Add("filter", parameterToString(localVarOptionals.Filter.Value(), ""))
